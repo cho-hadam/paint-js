@@ -62,3 +62,21 @@ body {
 .controls .controls__range {
     margin-bottom: 30px;
 }
+
+input[type="range"] {
+    -webkit-appearance: none;
+    background: rgb(212, 212, 212);
+    height: 5px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: rgb(99, 99, 99);
+    border-radius: 50%;
+    cursor: pointer;
+  }
