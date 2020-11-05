@@ -1,2 +1,2 @@
 # paint-js
-Nomad Corders Vanilla JS
+Nomad Coders Vanilla JS
